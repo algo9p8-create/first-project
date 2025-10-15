@@ -1,2 +1,45 @@
-  
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    background-color: grey;
+    display: grid;
+    gap: 5px;
+}
+h1{
+    padding: 0px;
+    margin: 0px;
+}
+header,nav,section,article,aside,footer{
+    background-color: white;
+    border: 2px solid;
+    border-radius: 25px;
+    text-align: center;
+    padding: 22px;
+    margin: 5px;
+}
+header{
+    font-size: 1.2rem;
+}
+nav{
+    font-size: 1.6rem;
+}
+section{
+    font-size: 1.6rem;
+}
+article{
+    font-size: 1.6rem;
+}
+aside{
+    font-size: 1.6rem;
+}
+footer{
+    font-size: 1.2rem;
+
+}
+
+
+
 
